@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Guzmán Santana</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <div class="contenido">
+      <div class="foto">
+        <img src="yo.jpeg" alt="" />
+        <div class="info">
+          <h1>Guzmán Santana</h1>
+          <p>
+            Me gusta el desarrollo web, la programación y en general me interesa
+            el mundo IT
+          </p>
+        </div>
+      </div>
+      <br />
+      <ul class="links">
+        <a href="#e">
+          <li>Experiencia Profesional</li>
+        </a>
+        <a href="#h">
+          <li>Hablidades y conocimientos</li>
+        </a>
+        <a href="#ed">
+          <li>Educación</li>
+        </a>
+        <a href="#p">
+          <li>Perfiles Sociales</li>
+        </a>
+        <a href="#c">
+          <li>Contacto</li>
+        </a>
+      </ul>
+      <hr />
+      <h2 id="e">Experiencia profesional</h2>
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Empresa / Organización</th>
+            <th>Cargo</th>
+            <th>Localización</th>
+            <th>Desde-hasta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nasa</td>
+            <td>Ceo</td>
+            <td>Montevideo (Uruguay)</td>
+            <td>Marzo 2014 - Actualidad</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <hr />
+      <h2 id="h">Habilidades y Conocimientos</h2>
+      <ul class="habilidades">
+        <li><strong>Desarrollo web:</strong> HTMLS, JavaScript, css</li>
+      </ul>
+      <hr />
+      <h2 id="ed">Educación</h2>
+
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Entidad</th>
+            <th>Promoción</th>
+          </tr>
+          <tr>
+            <td>Desarrollo Web</td>
+            <td>Plan Ceibal (Jóvenes a programar)</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>Curso: Testing</td>
+            <td>Alianza</td>
+            <td>2023</td>
+          </tr>
+        </thead>
+      </table>
+      <br />
+      <hr />
+
+      <h2 id="p">Perfiles sociales</h2>
+
+      <p>También puedes encontrarme en:</p>
+
+      <ul class="links">
+        <a
+          href="https://github.com/Guziuss"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><li>Github</li></a
+        >
+        <a
+          href="https://twitter.com/Guziuss"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><li>Twitter</li></a
+        >
+        <a
+          href="https://www.linkedin.com/in/guzmán-santana-cola-024082221/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><li>Linkedin</li></a
+        >
+      </ul>
+      <br />
+      <hr />
+      <h2 id="c">Contactar</h2>
+      <form action="">
+        <p>Para:</p>
+        <input type="text" name="para" />
+        <p>Temática:</p>
+        <select name="tematica">
+          <option value="" hidden>-- Elige un tema --</option>
+          <option value="Consulta">Consulta</option>
+          <option value="Reporte">Reporte</option>
+          <option value="Propuesta">Propuesta</option>
+          <option value="Otro">Otro</option>
+        </select>
+        <p>Asunto:</p>
+        <input type="text" name="Asunto" />
+        <p>Cuerpo:</p>
+        <textarea name="cuerpo" id="" cols="30" rows="3"></textarea>
+        <input type="submit" class="botón" value="Enviar" />
+      </form>
+    </div>
+  </body>
+</html>
